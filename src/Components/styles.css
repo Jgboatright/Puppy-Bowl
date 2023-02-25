@@ -1,0 +1,65 @@
+.grid-container{
+    display: grid;
+    border: solid black;
+    gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    padding:2em;
+    margin-top: 2em;
+}
+.pup-containers{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 86);
+    max-width: fit-content;
+}
+p{ 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 86);
+}
+
+* {
+    background-color: rgb(254, 254, 113);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pup-words{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 86);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: rgb(31, 125, 207);
+}
+.pup-image{
+    display: flex;
+    justify-content: center;
+}
+.pup-container {
+    display: flex;
+    border: solid black;
+    flex-direction: column;
+    justify-content: center;
+    max-width: fit-content;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.roster-btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 14, 7);
+}
